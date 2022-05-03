@@ -1,0 +1,49 @@
+﻿@model WebApplication3.Models.Entites.Ogrenci
+@{
+    ViewBag.Title = "Guncelle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Ogrneci Guncelle</h2>
+
+<form class="form-horizontal" method="post" action="/giris/Guncelle">
+
+    @Html.HiddenFor(x => x.ogr_id)
+
+    <div class="form-group">
+        <label>No</label>
+        <input type="text" class="form-control" name="ogr_no" />
+    </div>
+
+    <div class="form-group">
+        <label>TC no</label>
+        <input type="text" class="form-control" name="tc_no" />
+    </div>
+
+    <div class="form-group">
+        <label>Ad</label>
+        <input type="text" class="form-control" name="ad" />
+    </div>
+
+    <div class="form-group">
+        <label>Soyad</label>
+        <input type="text" class="form-control" name="soyad" />
+    </div>
+
+    <div class="form-group">
+        <label>Doğum Tarihi</label>
+        <input type="datetime" class="form-control" name="dogumTarihi" />
+    </div>
+
+    <div class="form-group">
+        <label>Doğum yeri</label>
+        <input type="text" class="form-control" name="dogumYeri" />
+    </div>
+
+    <div class="form-group">
+        <label>Not</label>
+        <input type="text" class="form-control" name="notu" />
+    </div>
+
+    <input type="submit" class="btn btn-primary" value="Güncelle" />
+</form>
