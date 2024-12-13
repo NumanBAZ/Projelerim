@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>ISUBÜ_logo.png</file>
+    <file>icon.qrc</file>
+  </qresource>
+</RCC>

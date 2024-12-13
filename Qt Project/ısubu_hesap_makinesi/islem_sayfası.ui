@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_main</class>
+ <widget class="QWidget" name="Form_main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+#Form_main{
+background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:1 rgba(60, 60, 60, 245));
+}
+#line{
+background-color: rgb(255, 255, 255,120);
+border-radius: 1px;
+}
+#line:hover{
+background-color: rgb(113, 113, 113);
+border-radius: 1px;
+}
+
+#label_sonuc{
+background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:1  rgba(34, 100, 255, 55)  );
+border-top-left-radius: 8px;  /* Sol üst köşe */
+border-top-right-radius: 8px; /* Sağ üst köşe */
+border-bottom-left-radius: 3px;  /* Sol üst köşe */
+border-bottom-right-radius: 3px; /* Sağ üst köşe */
+}
+
+
+
+#button_yuz{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 50));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button_vir{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 50));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button_esit{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 50));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button_eks{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 50));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button_del{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgb(255, 170, 127,135));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button_car{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 50));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#buttonOn{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgb(255, 0, 0,100) );
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button_bol{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 50));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button_art{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 50));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button0{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 100));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button1{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 100));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button2{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 100));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button3{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 100));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button4{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 100));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button5{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 100));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button6{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 100));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button7{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 100));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button8{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 100));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}#button9{
+	background-color: qlineargradient(spread:repeat, x1:0.5, y1:0, x2:0.5, y2:1, stop:0.40796 rgba(0, 91, 156, 100));
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+
+#button_yuz:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 214));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button_vir:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 214));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button_esit:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 214));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button_eks:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 214));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button_del:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgb(255, 170, 0,200) );
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button_car:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 214));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#buttonOn:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgb(255, 0, 0,200));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+
+#button_bol:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 214));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button_art:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 214));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button0:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 214));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button1:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 255));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button2:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 255));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+#button3:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 255));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button4:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 255));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button5:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 255));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button6:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 255));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button7:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 255));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button8:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 255));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+#button9:hover {
+    background-color: qlineargradient(spread:repeat, x1:0.517, y1:0, x2:0.522, y2:1, stop:0.487562 rgba(7, 98, 147, 255));
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="button1">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>430</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_sonuc">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>15</y>
+     <width>351</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button9">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>290</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_art">
+   <property name="geometry">
+    <rect>
+     <x>295</x>
+     <y>360</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_eks">
+   <property name="geometry">
+    <rect>
+     <x>295</x>
+     <y>290</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_car">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>220</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_bol">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>220</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>/</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button0">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>500</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buttonOn">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>220</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>C</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_vir">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>500</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>,</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button2">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>430</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button3">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>430</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button4">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>360</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button5">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>360</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button6">
+   <property name="geometry">
+    <rect>
+     <x>205</x>
+     <y>360</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button7">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>290</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button8">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>290</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_yuz">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>500</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>%</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_esit">
+   <property name="geometry">
+    <rect>
+     <x>295</x>
+     <y>429</y>
+     <width>80</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>=</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_del">
+   <property name="geometry">
+    <rect>
+     <x>295</x>
+     <y>220</y>
+     <width>80</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;-</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="line">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>360</width>
+     <height>5</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
